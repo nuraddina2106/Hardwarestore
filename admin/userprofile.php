@@ -1,6 +1,6 @@
 <?php
 
-include("../connection/connect.php");
+include("connection/connect.php");
 error_reporting(0);
 session_start();
 if(strlen($_SESSION['user_id'])==-1)
